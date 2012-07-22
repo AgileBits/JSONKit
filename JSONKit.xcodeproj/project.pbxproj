@@ -28,13 +28,6 @@
 		B3843E7315B70723000FE4B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B3A38EF915B7078000F24F45 /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
 		B3A38EFA15B7078000F24F45 /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
-		B3A38F0115B7080C00F24F45 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		B3A38F0415B7080C00F24F45 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		B3A38F0515B7080C00F24F45 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		B3A38F0615B7080C00F24F45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B3A38F0915B7080C00F24F45 /* JSONKitOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JSONKitOSX-Prefix.pch"; sourceTree = "<group>"; };
-		B3A38F0A15B7080C00F24F45 /* JSONKitOSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONKitOSX.h; sourceTree = "<group>"; };
-		B3A38F0B15B7080C00F24F45 /* JSONKitOSX.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONKitOSX.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +47,6 @@
 			children = (
 				B3A38EF915B7078000F24F45 /* JSONKit.h */,
 				B3A38EFA15B7078000F24F45 /* JSONKit.m */,
-				B3A38F0715B7080C00F24F45 /* JSONKitOSX */,
 				B3843E7215B70723000FE4B1 /* Frameworks */,
 				B3843E7115B70723000FE4B1 /* Products */,
 			);
@@ -72,38 +64,8 @@
 			isa = PBXGroup;
 			children = (
 				B3843E7315B70723000FE4B1 /* Foundation.framework */,
-				B3A38F0115B7080C00F24F45 /* Cocoa.framework */,
-				B3A38F0315B7080C00F24F45 /* Other Frameworks */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B3A38F0315B7080C00F24F45 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B3A38F0415B7080C00F24F45 /* AppKit.framework */,
-				B3A38F0515B7080C00F24F45 /* CoreData.framework */,
-				B3A38F0615B7080C00F24F45 /* Foundation.framework */,
-			);
-			name = "Other Frameworks";
-			sourceTree = "<group>";
-		};
-		B3A38F0715B7080C00F24F45 /* JSONKitOSX */ = {
-			isa = PBXGroup;
-			children = (
-				B3A38F0A15B7080C00F24F45 /* JSONKitOSX.h */,
-				B3A38F0B15B7080C00F24F45 /* JSONKitOSX.m */,
-				B3A38F0815B7080C00F24F45 /* Supporting Files */,
-			);
-			path = JSONKitOSX;
-			sourceTree = "<group>";
-		};
-		B3A38F0815B7080C00F24F45 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				B3A38F0915B7080C00F24F45 /* JSONKitOSX-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
