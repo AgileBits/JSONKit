@@ -124,6 +124,8 @@
 #import <Foundation/NSNull.h>
 #import <Foundation/NSObjCRuntime.h>
 
+#pragma clang diagnostic ignored "-Wdeprecated-objc-isa-usage"
+
 #ifndef __has_feature
 #define __has_feature(x) 0
 #endif
