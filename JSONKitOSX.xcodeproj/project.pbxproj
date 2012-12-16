@@ -100,7 +100,7 @@
 		B3A38F3215B71F9B00F24F45 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = AgileBits;
 			};
 			buildConfigurationList = B3A38F3515B71F9B00F24F45 /* Build configuration list for PBXProject "JSONKitOSX" */;
@@ -186,6 +186,7 @@
 		B3A38F4D15B71F9B00F24F45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -193,6 +194,7 @@
 		B3A38F4E15B71F9B00F24F45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
